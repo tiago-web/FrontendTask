@@ -48,7 +48,7 @@ export const Navbar = () => {
             />
             <input
               type="text"
-              className="rounded-r-md bg-neutral-800 flex-1 w-full px-1 py-2"
+              className="rounded-r-md bg-neutral-800 flex-1 w-full px-1 py-2 outline-none"
               placeholder="Lorem ipsum"
             />
           </div>
@@ -101,7 +101,7 @@ export const Navbar = () => {
                 />
                 <input
                   type="text"
-                  className="rounded-r-md bg-neutral-800 flex-1 w-full px-1 py-2"
+                  className="rounded-r-md bg-neutral-800 flex-1 w-full px-1 py-2 outline-none"
                   placeholder="Lorem ipsum"
                 />
               </div>

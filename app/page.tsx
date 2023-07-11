@@ -144,7 +144,7 @@ export default function Home() {
             </AccordionItem>
           </div>
         </div>
-        <div className="bg-gradient-to-r from-[#2E2D66] via-[#3A273F] to-[#181818] animate-gradient-x w-screen h-full absolute top-0 left-40"></div>
+        <div className="bg-gradient-to-r from-[#2E2D66] via-[#3A273F] to-[#181818] animate-gradient-x w-screen h-full absolute top-0 left-24 md:left-40"></div>
       </div>
       <footer className="h-52 justify-center flex">
         <Image className="w-56" src={grayLogo} alt="logo-img" />
