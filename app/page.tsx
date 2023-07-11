@@ -24,7 +24,7 @@ export default function Home() {
       <Navbar />
 
       <div className="relative w-auto h-auto overflow-hidden">
-        <div className="p-8 relative z-50 text-center justify-center flex flex-col">
+        <div className="py-8 px-3 sm:px-6 md:px-8 relative z-50 text-center justify-center flex flex-col">
           <Image className="w-full mx-auto" src={header} alt="header-img" />
           <Image
             className="w-16 md:w-24 lg:w-36 mx-auto -mt-7 sm:-mt-10 md:-mt-14 lg:-mt-16"
@@ -32,12 +32,16 @@ export default function Home() {
             alt="user-img"
           />
           <div className="mb-11">
-            <h1 className="text-5xl font-bold mt-4 mb-3">Lorem ipsum</h1>
+            <h1 className="text-3xl md:text-5xl font-bold mt-4 mb-3">
+              Lorem ipsum
+            </h1>
             <div className="flex justify-center mb-2">
-              <p>Created by:</p>
-              <span className="text-red-500 ml-2">Tiago Soriano</span>
+              <p className="text-sm md:text-lg">Created by:</p>
+              <span className="text-sm md:text-lg text-red-500 ml-2">
+                Tiago Soriano
+              </span>
             </div>
-            <p>
+            <p className="text-sm md:text-lg">
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem.
             </p>
           </div>

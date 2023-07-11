@@ -29,7 +29,7 @@ export const Navbar = () => {
       }`}
     >
       <div
-        className={`w-full bg-black flex px-8 py-6 justify-between ${
+        className={`w-full bg-black flex px-3 sm:px-6 md:px-8 py-6 justify-between ${
           openMobileMenu && "h-60"
         }`}
       >
